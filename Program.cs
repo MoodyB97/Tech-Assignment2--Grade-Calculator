@@ -10,6 +10,7 @@ namespace Tech_Assignment2__Grade_Calculator
         static void Main(string[] args)
         {
             Console.WriteLine("Enter your anticipated grade in ISM 4300");
+            //This writes a message to the user to enter their anticipated grade
             try
             {
                 // This will grab the users integer input
@@ -34,12 +35,12 @@ namespace Tech_Assignment2__Grade_Calculator
                 
                     Console.WriteLine("You got an F...");
                 }
-                 
+               //This checks the user inputs and determines which grade the student shall recieve  
             catch
             {
                 Console.WriteLine("Plese enter a valid score");
             }
-
+            //This accounts for user data entry errors
             
         }
     }
